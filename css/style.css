@@ -1,0 +1,264 @@
+*{margin: 0%;
+padding: 0%;
+}
+
+
+
+.elegidos{
+        border: solid 1px rgb(245, 243, 242);
+        padding: 12px;
+        text-align: center;
+        font-size: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 800px;
+        height: 50px;
+        margin-left: 300px;
+        margin-top: 50px;
+        background-color: rgb(224, 110, 33);
+        color: rgb(253, 251, 247);
+    }
+    
+    .miami{
+        width: 245px;
+        height: 200px;
+        margin: 10px;
+        margin-top: 15px;
+    }
+    .rio{
+        width: 245px;
+        height: 200px;
+        margin: 10px;
+    }
+    .paris{
+        width: 245px;
+        height: 200px;
+        margin: 10px;
+    }
+    .roma{
+        width: 245px;
+        height: 200px;
+        margin: 10px;
+    }
+    .egipto{
+        width: 2px;
+        height: 200px;
+        margin: 10px;
+    }
+
+
+
+
+
+.vuelos{
+    border: solid 1px rgb(245, 243, 242);
+    padding: 10px;
+    text-align:left;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1000px;
+    height: 35px;
+    margin-left: 150px;
+    margin-top: 15px;
+    background-color: rgb(224, 110, 33);
+    color: rgb(253, 251, 247);
+}
+
+    .origen{
+        width: 180px;
+        margin: 10px;
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+
+    .destino{
+        width: 180px;
+        margin: 2px;
+        margin-top: 20px;
+    }
+
+    .ida{
+        width: 180px;
+        margin: 2px;
+        margin-top: 20px;
+    }
+
+    .vuelta{
+        width: 180px;
+        margin: 2px;
+        margin-top: 20px;
+    }
+
+    .cantidad{
+        width: 180px;
+        margin: 2px;
+        margin-top: 20px;
+    }
+
+
+    .nacional{
+        border: solid 1px rgb(245, 243, 242);
+        padding: 10px;
+        text-align:left;
+        font-size: 12px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        height: 12px;
+        margin-top: 90px;
+        background-color: rgb(155, 154, 154);
+        color: rgb(253, 251, 247);
+    }
+
+
+.select{
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    background-color: rgb(245, 224, 118);
+}
+
+
+
+
+
+
+
+.somos{
+    border: solid 1px rgb(245, 243, 242);
+    padding: 10px;
+    text-align:left;
+    font-size: 13px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 600px;
+    height: 30px;
+    margin-left: 700px;
+    margin-top: 45px;
+    background-color: rgb(224, 110, 33);
+    color: rgb(253, 251, 247);
+}
+
+    .parrafo{
+        border: solid 1px white;
+        width: 400px;
+        height: 300px;
+        font-size: 17px;
+        font-family:'Times New Roman', Times, serif;
+        margin-left: 750px;
+        margin-top: 15px;
+        color: black;
+    }
+
+    .contact{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 800px;
+        margin-top: 1px;
+        color: orange;
+    }
+
+    .nombre{
+        height: 20px;
+        margin-left: 830px;
+        margin-top: 10px;
+        background-color: rgb(255, 254, 253);
+    }
+
+    .e-mail{
+        height: 20px;
+        margin-left: 830px;
+        margin-top: 10px;
+        background-color: rgb(255, 254, 252);
+    }
+
+    .mensaje{
+        margin-left: 830px;
+        margin-top: 10px;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+
+
+.frecuentes {
+    height: 130%;
+    background-image: url(../assets/fondojpg.jpg) ;
+    background-size: cover;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12,1fr);
+
+}
+
+.frecuentes .info{
+    grid-column: 8/12;
+    grid-row: 3/10;
+}
+
+.frecuentes .info p {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    color: rgb(5, 3, 3);
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1,1fr);
+
+
+    
+}
+
+
+
+
+h1{
+    color:cornflowerblue;
+    margin-left: 580px;
+    margin-top: 150px ;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+
+    
+}
+
+.usuario{
+    margin-left: 500px;
+    margin-top: 50px;
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
+    border-color:aquamarine;
+    box-shadow: 0px 10px 20px black;
+    
+    
+   
+}
+
+    .contrasena{
+        margin-left: 500px;
+        margin-top: 50px;
+        width: 300px;
+        height: 30px;
+        border-radius: 50px;
+        border-color:aquamarine;
+        box-shadow: 0px 10px 20px black;
+    }
+
+
+footer{
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+    margin-top: 50px;
+    clear: both;
+    background-color: rgba(0, 0, 0, 0.884); 
+}
+footer p{
+    text-align: center;
+    color: antiquewhite;
+    margin-inline: -20px;
+}
+
+
+
+
+

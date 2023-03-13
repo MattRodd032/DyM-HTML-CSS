@@ -121,13 +121,18 @@
 .nacional {
   border: solid 1px rgb(245, 243, 242);
   padding: 10px;
-  text-align: left;
-  font-size: 12px;
+  text-align: center;
+  font-size: 14px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  height: 12px;
+  height: 28px;
   margin-top: 90px;
   background-color: rgb(155, 154, 154);
   color: rgb(253, 251, 247);
+}
+
+.avion {
+  text-align: center;
+  background-color: lightblue;
 }
 
 .select {
@@ -295,12 +300,12 @@ footer p {
     text-align: center;
     font-size: 21px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 450px;
     height: 40px;
-    margin-left: 8px;
     margin-top: 50px;
-    background-color: rgb(224, 110, 33);
     color: rgb(253, 251, 247);
+    width: 450px;
+    margin-left: 8px;
+    background-color: rgb(224, 110, 33);
   }
   .frecuentes {
     background-image: url(../assets/fondojpg.jpg);
@@ -325,6 +330,19 @@ footer p {
     margin-left: 8px;
     line-height: 50px;
   }
+  .vuelos {
+    border: solid 1px rgb(245, 243, 242);
+    padding: 10px;
+    text-align: left;
+    font-size: 17px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    height: 35px;
+    margin-top: 15px;
+    color: rgb(253, 251, 247);
+    width: 450px;
+    margin-left: 8px;
+    background-color: rgb(224, 110, 33);
+  }
 }
 @media screen and (min-width: 550px) and (max-width: 1025px) {
   .elegidos {
@@ -332,23 +350,23 @@ footer p {
     text-align: center;
     font-size: 21px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 650px;
     height: 40px;
-    margin-left: 10px;
     margin-top: 50px;
-    background-color: rgb(224, 110, 33);
     color: rgb(253, 251, 247);
+    background-color: rgb(224, 110, 33);
+    width: 650px;
+    margin-left: 10px;
   }
   .title-grid {
     text-align: center;
     font-size: 21px;
     font-family: "Times New Roman", Times, serif;
-    width: 600px;
     height: 30px;
-    margin-left: 8px;
     margin-top: 50px;
-    background-color: rgb(99, 107, 143);
     color: rgb(22, 16, 16);
+    background-color: rgb(99, 107, 143);
+    width: 600px;
+    margin-left: 10px;
   }
   .grid-container {
     margin-top: -1px;
@@ -356,6 +374,19 @@ footer p {
     max-width: 1000px;
     margin-left: 8px;
     line-height: 50px;
+  }
+  .vuelos {
+    border: solid 1px rgb(245, 243, 242);
+    padding: 10px;
+    text-align: left;
+    font-size: 17px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    height: 35px;
+    margin-top: 15px;
+    color: rgb(253, 251, 247);
+    background-color: rgb(224, 110, 33);
+    width: 650px;
+    margin-left: 10px;
   }
 }
 

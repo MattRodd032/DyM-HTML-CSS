@@ -16,6 +16,7 @@ html {
   margin: 0 ;
   padding:0;
 }
+
 h2{
   margin: 0 !important;
   padding: 0 !important;
@@ -360,10 +361,9 @@ footer p {
   /* */
 }
 
-.favorite-places, .nacional {
+.favorite-places, .nacional, .promo-2x1 {
   height: 3em;
   padding-top: 1em;
-
   background-color: rgb(99, 107, 143);
   justify-content: center;
   text-align: center;
@@ -405,8 +405,45 @@ footer p {
   }
 }
 
+/* --------------------PAQUETES------------------------- */
+.container-promos {
+  margin-top: 2em !important;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
 
+.row {
+  margin-bottom: 20px;
+  margin-right: 0;
+  margin-left: 0;
+}
 
+.btn {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 2px;
+}
+
+/* Carousel */
+/* Centrar las tarjetas dentro del carrusel */
+.carousel-item {
+  text-align: center;
+}
+
+/* Ajustar el tamaño de las imágenes en pantallas pequeñas */
+@media (max-width: 767px) {
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.card-body{
+  padding: 0;
+}
 
 
 /* ---------------------------------------------------------------- */

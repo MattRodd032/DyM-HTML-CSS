@@ -445,6 +445,19 @@ footer p {
   padding: 0;
 }
 
+/* -------------------------------------------------------------- */
+.col-lg-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 1.1rem !important;
+}
+
+
 
 /* ---------------------------------------------------------------- */
 /* @media screen and (min-width: 280px) and (max-width: 550px) {

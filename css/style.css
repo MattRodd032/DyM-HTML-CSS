@@ -456,6 +456,66 @@ footer p {
 h2 {
   margin-bottom: 1.1rem !important;
 }
+/* ----------------------PreguntasFrecuentes--------------------- */
+.fondo{
+  /* Gradiente del fondo */
+  background: rgb(251,153,63);
+  background: radial-gradient(circle, rgba(251,153,63,1) 0%, rgba(113,45,1,1) 100%);
+
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.lista{
+  background: rgb(247, 230, 157);
+  max-width: 90%;
+  border-radius: 10px;
+  margin-top: 2em;
+  list-style: 0 1em;
+  font-size: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pregunta{
+  padding: 9px;
+  border-bottom: 1px solid lightgrey;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+}
+.pregunta i{
+  font-size: 21px;
+  transition: .3s;
+}
+.pregunta span{
+  transition: .3s;
+}
+.pregunta:hover span{
+  margin-left: 0px;
+}
+.pregunta:last-child{
+  border: none;
+}
+.respuesta{
+  text-align: justify;
+  height: 0;
+  overflow: hidden;
+  transition: .001s !important; 
+  padding: 0 1.5rem;
+}
+/* Estilos para una pregunta seleccionada */
+.resp_act{
+  padding-top: 2px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid lightgrey;
+  height: auto !important;
+}
+.ico_resp_act{
+  transform: rotate(180deg);
+}
 
 
 

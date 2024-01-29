@@ -1,81 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Preguntas, Frecuentes, consulta">
-    <link rel="stylesheet" href="../libs/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Preguntas, Frecuentes, consulta">
+  <link rel="stylesheet" href="../libs/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(26, 23, 23);">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../pages/inicio.html">Inicio</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../pages/vuelos.html">Vuelos</a>
-                    
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="../pages/paquetes.html">Paquetes</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="../pages/nosotros.html">Nosotros</a>
-                    </li>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="../pages/preguntas.html">Preguntas</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="../pages/usuario.html">Iniciar Sesion</a>
-                    </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-<section>
-  <main class="frecuentes">
-    <div class="info">
-    <p> 1 Las habitaciones son a compartir ?
-        NO. Todas las Habitaciones de Dym (dobles en adelante) son exclusivas para el número de pasajeros que reserva.</p>
-    <p>
-        2 Viajando solo/a es el mismo precio ?
-        SI. En este caso Dym no opera habitaciones singles. Viajando solo/a es habitación a compartir con otros pasajeros de la empresa del mismo sexo.</p>
-    <p>
-        3 Los menores pagan lo mismo?
-        Menores de 3 años (inclusive) acompañados por al menos 2 mayores NO abonan.
-        Menores con 4 aos cumplidos en adelante abonan como adulto. </p>
-    <p>
-        4 Que empresas de Micros utiliza Dym?
-        Todas flotas de primera linea: Masterbus | Cita | Marcopolo | Ciucio | Cachi | Transporte del Plata … etc </p>
-    <p>
-        5 Aceptan dietas especiales: vegetarianos, veganos, etc ?
-        SI. Debés informarlas al momento de reservar. </p>
-    <p>
-        6 ¿Si quiero pagar en efectivo donde pago?
-        Una vez recibidos los datos solicitados para reservar, emitimos una CONFIRMACION DE RESERVA para que pases por nuestras Oficinas.</p>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(26, 23, 23);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../assets/logo.png" alt="Logo de DYMcation"
+            width="100px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/vuelos.html">Vuelos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/paquetes.html">Paquetes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/preguntas.html">Preguntas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/usuario.html">Iniciar Sesión</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
+  <section>
+    <div class="fondo">
+      <ul class="lista">
+        <li class="pregunta" data-resp_id="resp_2">
+          <span>¿Las habitaciones son a compartir?</span>
+          <i class="ico_resp fas fa-angle-down"></i>
+        </li>
+        <li class="respuesta" id="resp_2">
+          <span id="sp_resp_2">
+            NO. Todas las habitaciones de Dym (dobles en adelante) son exclusivas para el número de pasajeros que
+            reservan.
+          </span>
+        </li>
+
+        <li class="pregunta" data-resp_id="resp_3">
+          <span>¿Viajando solo/a es el mismo precio?</span>
+          <i class="ico_resp fas fa-angle-down"></i>
+        </li>
+        <li class="respuesta" id="resp_3">
+          <span id="sp_resp_3">
+            SI. En este caso, Dym no opera habitaciones singles. Viajando solo/a es habitación a compartir con otros
+            pasajeros de la empresa del mismo sexo.
+          </span>
+        </li>
+
+        <li class="pregunta" data-resp_id="resp_4">
+          <span>¿Los menores pagan lo mismo?</span>
+          <i class="ico_resp fas fa-angle-down"></i>
+        </li>
+        <li class="respuesta" id="resp_4">
+          <span id="sp_resp_4">
+            Menores de 3 años (inclusive) acompañados por al menos 2 mayores NO abonan.
+            <br>
+            Menores con 4 años cumplidos en adelante abonan como adulto.
+          </span>
+        </li>
+
+        <li class="pregunta" data-resp_id="resp_5">
+          <span>¿Qué empresas de micros utiliza Dym?</span>
+          <i class="ico_resp fas fa-angle-down"></i>
+        </li>
+        <li class="respuesta" id="resp_5">
+          <span id="sp_resp_5">
+            Dym utiliza empresas de primera línea: Masterbus, Cita, Marcopolo, Ciucio, Cachi, Transporte del Plata, etc.
+          </span>
+        </li>
+
+        <li class="pregunta" data-resp_id="resp_6">
+          <span>¿Aceptan dietas especiales: vegetarianos, veganos, etc.?</span>
+          <i class="ico_resp fas fa-angle-down"></i>
+        </li>
+        <li class="respuesta" id="resp_6">
+          <span id="sp_resp_6">
+            SI. Debes informarlas al momento de reservar.
+          </span>
+        </li>
+
+        <li class="pregunta" data-resp_id="resp_7">
+          <span>¿Si quiero pagar en efectivo, dónde pago?</span>
+          <i class="ico_resp fas fa-angle-down"></i>
+        </li>
+        <li class="respuesta" id="resp_7">
+          <span id="sp_resp_7">
+            Una vez recibidos los datos solicitados para reservar, emitimos una CONFIRMACIÓN DE RESERVA para que pases
+            por nuestras oficinas.
+          </span>
+        </li>
+      </ul>
     </div>
-    
-  </main>
-</section>
 
 
+  </section>
 
+  <footer class="site-footer">
+    <div class="footer-container">
+      <img src="../assets/logo.png" alt="Logo de DYMcation" width="100 px">
+      <p>&copy; 2024 DYMcation. Todos los derechos reservados.</p>
+    </div>
+  </footer>
 
-<footer>
-    <img src="../assets/dym logo.png" width="250px" >
-    <p>TODOS LOS DERECHOS RESERVADOS.</p> 
-</footer>
-
-<script src="../libs/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="../libs/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../scripts/script.js"></script>
 </body>
 </html>
